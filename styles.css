@@ -104,6 +104,18 @@ h5 {
     text-decoration: underline;
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+
 
 
 
