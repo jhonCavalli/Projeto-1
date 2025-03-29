@@ -12,5 +12,65 @@ body {
     height: 100vh;
 }
 
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #2f2f2f;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar .sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.sidebar ul li:hover {
+    background-color: #444;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+
 
 
